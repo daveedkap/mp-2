@@ -34,7 +34,7 @@ export default function App() {
         }, []);
     return (
         <ParentDiv>
-            <Header>Biggest Updated Cryptocurrencies</Header>
+            <Header>Top 100 Updated Cryptocurrencies</Header>
             <CryptoList cryptos={cryptoData} />
         </ParentDiv>
     );
